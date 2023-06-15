@@ -1,0 +1,7 @@
+{
+  "name": "App_históriaPE",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
