@@ -30,8 +30,23 @@
     
 }
 
-body{
-    background-color: rgba(255, 242, 99, 0.874);
+ion-content {
+    --background: #fff06c;
+  }
+
+ion-card{
+    padding: 10px;
+    margin: auto;
+    max-width: 400px;
+}
+
+ion-card > p {
+    text-align: justify;
 }
 
 
+ion-card > img {
+    max-width: 800px;
+    margin: auto;
+    height: 250px;
+}

@@ -10,3 +10,5 @@ export class Tab2Page {
   constructor() {}
 
 }
+
+import { InfiniteScrollCustomEvent } from '@ionic/angular';
