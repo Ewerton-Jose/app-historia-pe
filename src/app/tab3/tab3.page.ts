@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-tab3',
@@ -7,6 +7,12 @@ import { Component } from '@angular/core';
 })
 export class Tab3Page {
 
+  @ViewChild('revolta', { static: false }) revolta: ElementRef;
+
   constructor() {}
 
+  ngAfterViewInit() {
+    this.revolta.nativeElement.innerHTML = 'Texto pré-definido';
+    this.revolta.nativeElement.focus();
+  }
 }
